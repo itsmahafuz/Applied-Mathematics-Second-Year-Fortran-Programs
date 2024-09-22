@@ -40,7 +40,7 @@ program sumdih
         sum = d1 + d2 + d3 + d4 + d5 + d6 + d7
 
         ! Print the sum of the digits
-        print 5, sum5
-        format(2x, "The sum is:", I7)
+        print 5, sum
+        5 format(2x, "The sum is:", I7)
     end do
 end program
